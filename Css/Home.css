@@ -1,0 +1,10 @@
+
+html,body {
+  height: 100%;
+    }
+
+.home { background-color: black;}
+.portfolio { background-color: white;}
+.services { background-color: blue;}
+.athletes { background-color: red;}
+.contact { background-color: green;}
