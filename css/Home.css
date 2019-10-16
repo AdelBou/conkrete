@@ -3,8 +3,27 @@ html,body {
   height: 100%;
     }
 
-.home { background-color: black;}
-.portfolio { background-color: white;}
-.services { background-color: blue;}
-.athletes { background-color: red;}
-.contact { background-color: green;}
+#CONKRETE {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#myVideo {
+    position: absolute;
+    left:33.33333333333333%;
+    bottom: 0;
+    top: 0;
+    width: 33.33333333333333%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black; /* in case the video doesn't fit the whole page*/
+    background-image: /* our video */;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover; /*cover video background */
+    z-index: -100;
+}

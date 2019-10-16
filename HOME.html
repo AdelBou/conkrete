@@ -14,8 +14,14 @@
     <div id="fullpage">
         <div class="section">Portfolio</div>
         <div class="section active">
-            <div class="slide" data-anchor="slide1">Contact</div>
-            <div class="slide active" data-anchor="slide2">CONKRETE</div>
+            <div class="slide fp-auto-height" data-anchor="slide1">Contact</div>
+            <div class="slide active" data-anchor="slide2">
+                <img id="CONKRETE" src="images/WConkrete1080.png"/>
+                <video data-autoplay loop id="myVideo">
+                    <source src="videos/Conkrete.webm" type="video/webm">
+                    <source src="videos/Conkrete.mp4" type="video/mp4">
+                </video>
+            </div>
             <div class="slide" data-anchor="slide3">Athletes</div>
         </div>
         <div class="section">Services</div>
@@ -23,8 +29,13 @@
 
     <script>
         new fullpage('#fullpage', {
+            autoScrolling: true,
+            loopHorizontal: false,
+            lazyLoading: true,
+
             sectionsColor: ['White', '#797979', 'Black'],
         });
+
     </script>
 </body>
 </html>
